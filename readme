@@ -1,1 +1,4 @@
-readme
+This code was designed to check attachments for any url's. if a url, either in plain text or a hyper link, was found,
+the document was rejected. a whitelist was added to allow valid and approved url's.
+It also checks is a url is a valid url and not something not intended to be a url. (e.g. firstname.lastname or even a
+typo where a space was not left after the period at the end of a sentence.)
